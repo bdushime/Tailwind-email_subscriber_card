@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!--Global container-->
+    <div class="flex items-center justify-center min-h-screen">
+
+        <!--Card container-->
+        <div class=" bg-white  flex flex-col  space-y-10 shadow-2xl  md:p-40">
+
+            <!--Menu Container-->
+
+        <div class="flex flex-col items-center justify-center space-y-4 md:flex-row md:justify-end md:justify-end  md:space-y-0  md:space-x-4">
+          <!---Menu Items-->
+          <div class="group"> 
+            <a href="#">Vector</a>
+            <div class="mx-2 mt-2 opacity-0 border-b-2 border-black group-hover:opacity-100  duration-500"></div>
+          </div>
+
+
+          <div class="group"> 
+            <a href="#">Illustrations</a>
+            <div class="mx-2 mt-2 opacity-0 border-b-2 border-black group-hover:opacity-100  duration-500"></div>
+          </div>
+
+          <div class="group"> 
+            <a href="#">Images</a>
+            <div class="mx-2 mt-2 opacity-0 border-b-2 border-black group-hover:opacity-100  duration-500"></div>
+          </div>
+
+
+          <div class="group"> 
+            <a href="#">Icons</a>
+            <div class="mx-2 mt-2 opacity-0 border-b-2 border-black group-hover:opacity-100  duration-500"></div>
+          </div>
+
+        </div>
+
+        <!--Search container and Upload Container-->
+        <div class="flex flex-col space-y-5 p-4 mt-3 md:flex-row md:space-y-0 justify-between ">
+         
+            <!--Search-->
+            <div class="flex justify-between border-b">
+                <input type='text' class="ml-6 border-none md:w-80 placeholder:font-thin focus:outline-none"  placeholder="Search">
+            </div>
+            <!--Upload button-->
+            <button class="py-3 px-14 bg-black  text-lg rounded-md md:flex md:items-center md:justify-center text-white md:text-center md:w-16">Upload</button>
+        </div>
+
+        <!--Images grid-->
+
+        <div class="grid md:grid-cols-3 gap-4">
+            <div class="group">
+                <img class="w-72" src="../email-subscribe/images/image1.jpg">
+            </div>
+
+            <div class="group">
+                <img class="w-72" src="../email-subscribe/images/image2.jpg">
+            </div>
+
+            <div class="group">
+                <img class="w-72" src="../email-subscribe/images/image3.jpg">
+            </div>
+
+            <div class="group">
+                <img class="w-72" src="../email-subscribe/images/image4.jpg">
+            </div>
+
+            <div class="group">
+                <img class="w-72" src="../email-subscribe/images/image5.jpg">
+            </div>
+
+            <div class="group">
+                <img class="w-72" src="../email-subscribe/images/image6.jpg">
+            </div>
+        </div>
+        
+        </div>
+
+
+    </div>
+</body>
+</html>
