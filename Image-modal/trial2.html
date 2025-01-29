@@ -10,20 +10,41 @@
     <!--Global container-->
     <div class="flex items-center justify-center min-h-screen">
         <!--Outer container-->
-        <div class="flex flex-col items-center justify-center space-y-3 bg-cyan-50 px-3 py-4">
+        <div class="flex flex-col  shadow-2xl  bg-cyan-50 md:p-64">
             <!---NavBar-->
-            <div class="flex flex-col items-center justify-center space-y-3 bg-cyan-50 px-3 py-4">
+            <div class="flex flex-col items-center  space-y-3  px-3 py-3 md:flex-row md:justify-end md:space-x-3 md:space-y-0">
             <h1>Vector</h1>
            <h1>Illustrations</h1>
            <h1>Images</h1>
            <h1>Icons</h1>
             </div>
             <!--Buttton container-->
-           <div class="flex flex-col space-y-2">
+           <div class="flex flex-col space-y-5 p-4 mt-3 md:flex-row md:space-y-0 justify-between ">
             <!--Search button-->
-            <input type="text" placeholder="search" class="border-b-2 ">
+            <input type="text" placeholder="search" class="ml-6 border-none md:w-80 placeholder:font-thin focus:outline-none ">
             <!--Upload button-->
-            
+            <button class="py-3 px-14 bg-black  text-lg rounded-md md:flex md:items-center md:justify-center text-white md:text-center md:w-16">Upload</button>
+           </div>
+           <!--image gallery-->
+           <div class=" grid  md:grid-cols-3 gap-2">
+            <div>
+                <img src="../email-subscribe/images/image1.jpg">
+            </div>
+            <div>
+                <img src="../email-subscribe/images/image2.jpg">
+            </div>
+            <div>
+                <img src="../email-subscribe/images/image3.jpg">
+            </div>
+            <div>
+                <img src="../email-subscribe/images/image4.jpg">
+            </div>
+            <div>
+                <img src="../email-subscribe/images/image5.jpg">
+            </div>
+            <div>
+                <img src="../email-subscribe/images/image6.jpg">
+            </div>
            </div>
         </div>
     </div>
